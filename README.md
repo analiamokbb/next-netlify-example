@@ -33,6 +33,10 @@ Followed by:
 netlify dev --debug
 ```
 
+Visiting http://localhost:8888 will immediately trigger a GET request to a test Netlify function.
+
+The test function will print the full `event` object in the console.
+
 Note: Netlify function handler adjustments will require restarting netlify dev.
 
 ## Other Background
